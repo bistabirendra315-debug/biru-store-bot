@@ -3,13 +3,18 @@
         "8823622915"
     ],
     "balance": {
-        "8823622915": 800
+        "8823622915": 520
     },
-    "orders": {},
+    "orders": {
+        "8823622915": [
+            "\u2705 Purchased\n\ud83d\udce6 DRIPCLIENT NONROOT\n\u23f3 30 Days NONROOT\n\ud83d\udcb0 \u20b9350\n\ud83d\udd11 Key: 6014193415\n\ud83d\udcc5 21 May 2026 | 09:43 PM"
+        ]
+    },
     "pending_deposits": {
-        "8823622915": true
+        "8823622915": 60,
+        "8476998981": true
     },
     "selected_product": {
-        "8823622915": "XYZ CHEATS ROOT"
+        "8823622915": "DRIPCLIENT NONROOT"
     }
 }

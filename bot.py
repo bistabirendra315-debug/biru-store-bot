@@ -59,12 +59,9 @@ db = load_db()
 def save_db():
     with open(DB_FILE, "w") as f:
         json.dump(db, f, indent=4)
-
-
 # =========================
 # PRODUCTS
 # =========================
-
 products = {
 
     "XYZ CHEATS ROOT": {
