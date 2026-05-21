@@ -674,5 +674,14 @@ app.add_handler(
     )
 )
 
+import asyncio
+
 print("Bot Running...")
+
+try:
+    loop = asyncio.get_event_loop()
+except RuntimeError:
+    loop = asyncio.new_event_loop()
+    asyncio.set_event_loop(loop)
+
 app.run_polling()
